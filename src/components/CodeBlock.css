@@ -1,0 +1,79 @@
+/* src/components/CodeBlock.css */
+pre {
+    background: #2d2d2d;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 8px;
+    margin-left: 15px;
+    overflow: auto;
+    max-width: 1000px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 21px;
+    line-height: 1.6;
+  }
+  
+  .hljs-comment,
+  .hljs-quote {
+    color: #75715e;
+  }
+  
+  .hljs-variable,
+  .hljs-template-variable,
+  .hljs-attribute,
+  .hljs-tag,
+  .hljs-name,
+  .hljs-regexp,
+  .hljs-link,
+  .hljs-selector-id,
+  .hljs-selector-class {
+    color: #f92672;
+  }
+  
+  .hljs-number,
+  .hljs-meta,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-literal,
+  .hljs-type,
+  .hljs-params {
+    color: #ae81ff;
+  }
+  
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-bullet {
+    color: #a6e22e;
+  }
+  
+  .hljs-title,
+  .hljs-section {
+    color: #66d9ef;
+  }
+  
+  .hljs-keyword,
+  .hljs-selector-tag {
+    color: #f92672;
+  }
+  
+  .hljs-deletion {
+    background: #f92672;
+    color: #f8f8f2;
+  }
+  
+  .hljs-addition {
+    background: #a6e22e;
+    color: #f8f8f2;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic;
+  }
+  
+  .hljs-strong {
+    font-weight: bold;
+  }
+  
