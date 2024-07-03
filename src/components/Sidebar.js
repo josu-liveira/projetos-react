@@ -2,12 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function Sidebar() {
-  const [open, setOpen] = useState({});
-
-  const toggleSubmenu = (index) => {
-    setOpen(prevState => ({ ...prevState, [index]: !prevState[index] }));
-  };
-
+  
   return (
     <div className="sidebar">
       <div className="menu">
